@@ -1,6 +1,7 @@
 object/*
 binary/*
 art/*
+.vscode/*
 
 !art/black1_alpha.png
 !art/black1.png
