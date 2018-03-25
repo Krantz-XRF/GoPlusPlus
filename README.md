@@ -15,6 +15,9 @@
 Windows/Linux/MacOS，一切有支持C++17编译器的平台。  
 当前的`Makefile`是为Windows平台编写的，您可以很容易地改成适用于其他平台的版本。
 
+## 下载并使用
+下载适用于Windows的[Github发布包](https://github.com/Krantz-XRF/GoPlusPlus/releases/tag/v1.0)。
+
 ## 编译指南（Makefile修改指南）
 ### 需要修改的字段
 变量`CXXFLAGS`中有`wxWidgets`的所在目录。  
