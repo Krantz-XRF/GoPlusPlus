@@ -27,10 +27,10 @@ Windows/Linux/MacOS，一切有支持C++17编译器的平台。
 在不支持资源的非Windows平台，您应当去掉`rc`文件的编译和链接，然后把对应的图片放在编译出的可执行文件路径下。
 
 ## 运行截图
-![](screenshots/new.png)  
+![](screenshots/new.jpg)  
 图1 新棋局的编辑  
 图中为中国流布局的一种变化。  
   
-![](screenshots/reopen.png)  
+![](screenshots/reopen.jpg)  
 图2 打开已保存的棋局并继续编辑  
 注意：这种情况下，您将不能撤销到未标序号的那些棋步。  
