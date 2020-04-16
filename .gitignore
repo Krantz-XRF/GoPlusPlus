@@ -1,8 +1,14 @@
-object/*
-binary/*
-art/*
+# Visual Studio Code
 .vscode/*
+build/
 
+# Visual Studio
+.vs/*
+out/
+CMakeSettings.json
+
+# Resources
+art/*
 !art/black1_alpha.png
 !art/black1.png
 !art/white1_alpha.png
@@ -12,4 +18,5 @@ art/*
 !art/GoPlusPlus.rc
 !art/Icon.ico
 
+# Test Files
 *.go
