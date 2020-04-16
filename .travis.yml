@@ -1,0 +1,21 @@
+dist: bionic
+language: cpp
+os: linux
+
+addons:
+  apt:
+    packages:
+      - libwxgtk3.0-gtk3-dev
+
+install:
+  # Add CMake Repo
+  - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 291F9FF6FD385783
+  - sudo apt-add-repository -y 'deb https://apt.kitware.com/ubuntu/ bionic main'
+  - sudo apt-get -q update
+  # Install CMake
+  - sudo apt-get -y --allow-unauthenticated install cmake
+
+script:
+  - mkdir build && cd build
+  - /usr/bin/cmake ..
+  - /usr/bin/cmake --build .
